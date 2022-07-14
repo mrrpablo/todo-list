@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(180deg, #6cd2f9 -30.08%, #3c88ee 100%);
+    position: relative;
+    height: 100vh;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.container{
+    width: 450px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 2px  93px -19px rgba(0, 0, 0, 0.15);
+    height: 80%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1{
+    font-size: 36px;
+    color: #474747;
+    margin: 30px 0 45px;
+}
+
+.row{
+    padding: 0 40px;
+    position: relative;
+}
+
+input{
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0 7px 33px -4px rgba(0, 0, 0, .14);
+    border-radius: 34px;
+    border: none;
+    outline: none;
+    padding: 20px 25px;
+}
+
+.row input::placeholder{
+    font-size: 16px;
+    color: #aaaaaa;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input.icon{
+    font-size: 35px;
+    color: #fff;
+    width: auto;
+    background: #5c885c;
+    border-radius: 50%;
+    position: relative;
+    padding: 0px 12px;
+    top: -50px;
+    right: -42%;
+    border: 1px solid transparent;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.icon:hover{
+    color: #5c885c;
+    background-color: #fff;
+    border-color: #5c885c;
+}
+
+h4{
+    font-size: 24px;
+    color: #474747;
+    margin: 20px 0 40px;
+}
+
+.row ul.task-list{
+    list-style: none;
+    text-align: left;
+}
+
+.row ul.task-list li{
+    background: #fff;
+    box-shadow: 0 7px 33px -4px rgba(0, 0, 0, .14);
+    border-radius: 34px;
+    padding: 20px 25px;
+    margin-bottom: 17px;
+    font-size: 16px;
+    color: #aaaaaa;
+    position: relative;
+}
+
+.row ul.task-list li span{
+    position: absolute;
+    right: 9px;
+    font-size: 22px;
+    top: 6px;
+    padding: 9px 16px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 23px -5px rgba(0, 0, 0, .15);
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.row ul.task-list li span:hover{
+    color: #fff;
+    background: red;
+}
+
+
+
+
+
